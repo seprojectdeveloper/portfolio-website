@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.navbar .logo {
+    width: 100px;
+    margin-bottom: 50dp;
+}
+
+.header-section {
+    padding: 100px 20px;
+    background-color: #673ab7;
+    color: #fff;
+    margin-top: 50px; /* Added margin-top to create space between navbar and header section */
+}
+
+.header-section h1 {
+    
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 100px 20px;
+    min-height: 60vh;
+}
+
+.about-section {
+    text-align: left;
+    margin-top: 100px;
+}
+
+.about-section .girl {
+    width: 280px; /* Increased the size */
+    height: 280px; /* Increased the size */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.info h1 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.info span {
+    color: #673ab7;
+}
+
+.info a.btn {
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #3764ce;
+    font-size: 30px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #2d56a8;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: #673ab7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #512da8;
+}
+
+#contact .text-center {
+    padding-top: 20px; /* Added padding between contact and email */
+}
